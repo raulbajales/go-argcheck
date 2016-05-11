@@ -25,8 +25,8 @@
 //  	fmt.Printf("Total salary of %v in %v months, gives %v per month.", total, numMonths, calculateMonthlySalary(total, numMonths))
 //  }
 //
-//  Output:
-//    panic: numMonths must be positive and not zero, numMonths is [[[0]]]
+// Output:
+//  panic: numMonths must be positive and not zero, numMonths is [[[0]]]
 package argcheck
 
 import (
