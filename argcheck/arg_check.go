@@ -1,5 +1,32 @@
 // Package argcheck provides functions to perform simple precondition
 // checks on arguments.
+//
+// Usage is really simple, just import package, and right after start
+// using any argument in a function, define and apply preconditions.
+//
+// Example:
+//
+//  package main
+//
+//  import (
+//  	"fmt"
+//
+//  	"github.com/raulbajales/go-argcheck/argcheck"
+//  )
+//
+//  func calculateMonthlySalary(total int, numMonths int) int {
+//  	argcheck.GreaterThanf(numMonths, 0, "numMonths must be positive and not zero, numMonths is %v", numMonths)
+//  	return total / numMonths
+//  }
+//
+//  func main() {
+//   	total := 50000
+//  	numMonths := 0
+//  	fmt.Printf("Total salary of %v in %v months, gives %v per month.", total, numMonths, calculateMonthlySalary(total, numMonths))
+//  }
+//
+//  Output:
+//    panic: numMonths must be positive and not zero, numMonths is [[[0]]]
 package argcheck
 
 import (
