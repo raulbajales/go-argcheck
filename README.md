@@ -30,4 +30,4 @@ func main() {
 ```
 Check [GoDoc here](https://godoc.org/github.com/raulbajales/go-argcheck/argcheck) for more preconditions/validations.
 
-###### ~ Made with coffe
+###### ~ Made with ![](http://s32.postimg.org/x79dz83gh/mate_icon.png)
