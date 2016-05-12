@@ -13,7 +13,7 @@ $ go get github.com/raulbajales/go-argcheck/argcheck
 And use it
 ```go
 import (
-	"argcheck"
+	"github.com/raulbajales/go-argcheck/argcheck"
 	"fmt"
 )
 
