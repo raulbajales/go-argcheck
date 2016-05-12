@@ -10,8 +10,7 @@
 //
 //  import (
 //  	"fmt"
-//
-//  	"github.com/raulbajales/go-argcheck/argcheck"
+//  	"argcheck"
 //  )
 //
 //  func calculateMonthlySalary(total int, numMonths int) int {
